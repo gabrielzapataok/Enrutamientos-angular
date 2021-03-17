@@ -1,0 +1,19 @@
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    border: 1px solid black;
+    text-decoration: none;
+    padding: 1em 0em;
+}
+li{
+    display: inline-block;
+    margin: 0em 1em;
+    cursor: pointer;
+}
+li:focus{
+    outline: none;
+}
+.actived{
+    text-decoration: underline;
+}

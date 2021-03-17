@@ -1,0 +1,15 @@
+<nav>
+    <ul>
+        <li routerLink = '' routerLinkActive = 'actived' [routerLinkActiveOptions]="{exact:true}"> home </li>
+        <li routerLink = 'about' routerLinkActive = 'actived' > about </li>
+        <li [routerLink] = "['component', 23 ]" routerLinkActive = 'actived' > link con parametro </li>
+        <li routerLink = 'direccionInvalida' routerLinkActive = 'actived' > link invalido </li>
+    </ul>
+</nav>
+
+<!--
+    ROUTERLINK define la url de destino
+    [ROUTERLINK] recibe un array cada elemento sera separado por una '/'
+    ROUTERLNKACTIVE Define la clase css que tendra cada vez que este activado
+    ROUTERLINKACTIVEOPTIONS={EXACT=TRUE} Solo se activaran los estilos si la clase es exactamente asi 
+-->

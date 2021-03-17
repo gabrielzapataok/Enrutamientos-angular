@@ -1,0 +1,10 @@
+div 
+{
+    width: 200px;
+    height: 100px;
+    background: yellow;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

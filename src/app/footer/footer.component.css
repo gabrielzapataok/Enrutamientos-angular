@@ -1,0 +1,7 @@
+footer{
+    border: 1px solid black;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
